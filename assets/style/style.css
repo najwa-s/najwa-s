@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: monospace;
+    text-decoration: none;
+    list-style:none;
+    scroll-behavior: smooth;
+
+    
+}
+#function{
+    font-size:60px;
+}
+
+body{
+    display: flex;
+}
+.container{
+    position: absolute;
+    margin-left: 95%;
+    top:20%;
+
+}
+.dots{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(47, 45, 45);
+    margin-top: 4px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:1000;
+    justify-content:space-between ;
+    background-color: white;
+    padding-bottom: 100px;
+    box-shadow: 5px #285AEB;
+   
+}
+
+
+
+div#home{
+    margin-top:25%;
+    margin-left:15%;
+}
+
+img#moi{
+    position: relative;
+    border-radius: 58%;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 20px;    
+}
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color:black;
+    }
+    to{
+        border-right-color: darkgreen;
+    }
+}
+div#intro{
+    display: inline-block;
+    font-size:70px;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-weight: bolder;
+    position:fixed;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+                blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+
+.fa {
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+.fa.fa-instagram {
+    padding:5px;
+    border-radius: 10px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+   color: white;
+
+  }
+
+  .fa.fa-instagram {
+    padding:5px;
+    border-radius: 10px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+   color: white;
+
+  }
+  .fa.fa-facebook {
+    padding: 15px;
+    padding-bottom: 0px;
+    border-radius: 40px;
+    background: rgba(24, 119, 242, 1);
+   color: white;
+
+  }
+
+
+#socials{
+    position:relative;
+    margin-left: 375px;
+    margin-top:-80px;
+}
+img{
+    margin-left: 20px;
+}
+
+img#facebook{
+    height: 49px;
+    width: 49px;
+}
+.circle,.back{
+    width : 307px;
+    height: 300px;
+    border-radius: 50%;
+    float:right;
+    background-size: 100%;
+    text-align: center;
+    padding: 148px 0;
+    text-decoration: solid white;
+    margin-right: 20px;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+    
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+
+.back {
+      background-color: rgb(128, 184, 239);
+      position: absolute;
+      text-align:center;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      vertical-align: top;
+      transform : rotateY(180deg);
+      justify-content: center;
+}
+
+p{
+    justify-content: center;
+}
+
+
+
+.hobbies{
+    margin-top: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.hobbie:hover{
+    cursor:pointer;
+    transform:rotateY(180deg);
+
+} 
+.hobbie{
+    float:left;
+    transition : transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+
+.style{
+    width:300px;
+    
+    background-color: rgb(47, 45, 45);
+    margin-top: 5px;
+    margin-left: -300px;
+    border-radius: 10px;
+   
+    
+}
+
+.options{
+    visibility: hidden;
+}
+
+
+
+a:visited { 
+        text-decoration: none; 
+        color: white; 
+    }
+
+
+.options .info {
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+.options .info:hover{
+    background-color: #363333;
+
+}
