@@ -10,7 +10,7 @@
     
 }
 #function{
-    font-size:60px;
+    font-size:70%;
 }
 
 body{
@@ -75,7 +75,7 @@ img#moi{
 }
 div#intro{
     display: inline-block;
-    font-size:70px;
+    font-size:500%;
     margin-top: 70px;
     margin-left: 70px;
     font-weight: bolder;
@@ -174,7 +174,7 @@ p{
 
 .hobbies{
     margin-top: 400px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: 15%;
 }
 
